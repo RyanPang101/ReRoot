@@ -14,16 +14,6 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-nature-sage/80 via-background/60 to-nature-mint/80" />
       </div>
 
-      {/* Floating Elements */}
-      <div className="absolute top-20 left-10 animate-float">
-        <Leaf className="h-16 w-16 text-nature-forest/30" />
-      </div>
-      <div className="absolute bottom-32 right-16 animate-float" style={{ animationDelay: '2s' }}>
-        <Leaf className="h-12 w-12 text-nature-mint/40" />
-      </div>
-      <div className="absolute top-1/3 right-1/4 animate-float" style={{ animationDelay: '4s' }}>
-        <Leaf className="h-8 w-8 text-earth-terracotta/50" />
-      </div>
 
       {/* Main Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
