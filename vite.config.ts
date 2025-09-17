@@ -15,6 +15,4 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // 👇 Add this for GitHub Pages deployment
-  base: "/ReRoot/",
 }));
